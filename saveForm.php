@@ -19,11 +19,7 @@ function save_form( $wpcf7 ) {
        $submited['posted_data'] = $submission->get_posted_data();
  
     }
-
-    
-    
-  
-        
+ 
      $data = array(
                 'name'  => $submited['posted_data']['first-name'],
                 'telefono'  => $submited['posted_data']['telefono'],
